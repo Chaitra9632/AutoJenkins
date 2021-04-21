@@ -8,6 +8,11 @@ public class AutodeskSample {
 	public void sampleTest()
 	{
 		System.out.println("HI");
+		String USER=System.getProperty("User");
+		String BROWSER=System.getProperty("Browser");
+		
+		System.out.println(USER);
+		System.out.println(BROWSER);
 	}
 
 }
